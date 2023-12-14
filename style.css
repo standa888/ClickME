@@ -1,0 +1,43 @@
+
+body {
+    background-color: rgb(80, 80, 80);
+    
+}
+
+.text {
+    display: flex;
+    align-items: center;
+
+    width: max-content;
+    margin: 400px auto 0px auto;
+}
+
+.button__box {
+    display: flex;
+    margin: 40px auto 0px auto;
+    align-items: center;
+    justify-content: center;
+
+    width: max-content;
+}
+
+.text span {
+    border-bottom: 4px solid rgb(142, 211, 40);
+    font-size: 2em;
+    color: rgb(142, 211, 40);
+}
+
+
+.button {
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    color: #fff;
+
+    background-color: rgb(142, 211, 40);
+    width: max-content;
+    height: 60px;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
